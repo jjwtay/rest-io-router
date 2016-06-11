@@ -1,0 +1,32 @@
+{
+  "name": "rest-io-router",
+  "version": "0.1.0",
+  "description": "Share routes between socket and http requests",
+  "main": "./build/rest-io-router",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/rest-io-router.js --presets babel-preset-es2015 --out-file build/rest-io-router.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjwtay/rest-io-router.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjwtay/rest-io-router/issues"
+  },
+  "homepage": "https://github.com/jjwtay/rest-io-router#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0"
+  }
+}
